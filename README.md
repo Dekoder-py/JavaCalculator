@@ -13,3 +13,13 @@ Subsequent runs:
 ```bash
 docker run -it java-calculator
 ```
+### No Docker:
+Java must be available in the path
+```bash
+git clone https://github.com/Dekoder-py/JavaCalculator.git
+clear
+cd JavaCalculator
+javac -d out/production src/Main.java
+java -cp out/production Main
+
+```
