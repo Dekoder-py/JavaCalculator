@@ -6,6 +6,7 @@ Ensure java is installed & on the path
 
 ```bash
 git clone https://github.com/Dekoder-py/JavaCalculator.git
+cd JavaCalculator
 javac -d out/production src/Main.java
 java -cp out/production Main
 ```
