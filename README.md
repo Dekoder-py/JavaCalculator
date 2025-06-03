@@ -5,6 +5,7 @@ Basic Java Calculator (built from scratch)
 Ensure java is installed & on the path
 
 ```bash
+git clone https://github.com/Dekoder-py/JavaCalculator.git
 javac -d out/production src/Main.java
 java -cp out/production Main
 ```
