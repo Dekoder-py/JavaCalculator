@@ -2,12 +2,9 @@
 Basic Java Calculator (built from scratch)
 
 ## Running
-Ensure java is installed & on the path
-
+Using Docker:
 ```bash
 git clone https://github.com/Dekoder-py/JavaCalculator.git
-clear
-cd JavaCalculator
-javac -d out/production src/Main.java
-java -cp out/production Main
+docker build -t java-calculator JavaCalculator
+docker run -it java-calculator
 ```
