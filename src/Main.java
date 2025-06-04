@@ -54,6 +54,7 @@ public class Main {
         String input;
         List<Float> calculations = new ArrayList<>();
         while (!finished) {
+            System.out.print(">> ");
             input = sc.next().strip();
             if (input.equals("=")) finished = true;
             else calculations.add(Float.parseFloat(input));
